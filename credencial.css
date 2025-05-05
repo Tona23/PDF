@@ -1,0 +1,302 @@
+
+p {
+  margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    color: #000000;
+  
+    font-family: sans-serif;
+    position: relative;
+
+
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .centrar {
+    position: absolute;
+    text-align: center;
+  }
+  
+  .ex1 {
+    margin: 0px 0px 0px 200px;
+  }
+  
+  .mi-texto0{
+    position: relative; 
+    left: 0.12in; 
+    text-align: center;
+    font-style:normal; 
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 17.5pt; 
+    color: #616160;
+    letter-spacing: .5pt;
+    line-height: 1.3;
+  }
+  
+  .mi-texto3 {
+    position: relative;
+    left: 0.12in; 
+    text-align: center;
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 19pt; 
+    color: #616160;
+  }
+  
+  .mi-texto4{
+    text-align: center;
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 45pt; 
+    font-family: Book Antiqua; 
+    color: #2a672d;
+  }
+  
+  .mi-texto5{
+    position: relative; 
+    left: 0.12in; 
+    text-align: center;
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 16pt;  
+    color: #616160;
+    line-height: 1.3 ;
+  }
+  
+  .mi-texto51{
+    position: relative; 
+    left: 0.12in; 
+    text-align: center;
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 19pt;  
+    color: #616160;
+    line-height: 1.3 ;
+  }
+  
+  .mi-texto6{
+    text-align: center;
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 25pt; 
+    font-family: Calibri; 
+    color: #741040;
+    line-height:1.05;
+    letter-spacing: .5pt;
+  }
+  
+  .mi-texto7{
+    text-align: center;
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 18pt;  
+    color: #1d1d1b;
+    line-height: 1.1 ;
+  }
+  
+  .mi-texto8{
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 12pt; 
+    color: #444444;
+    
+  }
+  .texto-superpuesto2 {
+    position: absolute;
+    color: #ffffff;
+     bottom: 45%;
+    font-size: 15pt; 
+    font-family:Impact;
+   
+  }
+
+  .container {
+    max-width: 500px;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    bottom: 45%;
+    font-size: 15pt; 
+    font-family:Impact;
+} 
+.container0 {
+  max-width: 500px;
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+  bottom: 45%;
+  font-size: 11pt; 
+  font-family:Impact;
+} 
+  .mi-img{
+    text-align: center; 
+left: 20%;   
+    width:250px;
+    height:30px;
+    position: absolute;
+   top: 15%;
+   }
+   .mi-img2{
+    text-align: center; 
+left: 38%;   
+    width:90px;
+    height:20px;
+    position: absolute;
+   top: 50%;
+   }
+
+  .mi-img0{
+   text-align: center; 
+   margin-left: 50px;
+  right: 80%; 
+  top: 15%;
+   width:59px;
+   height:44px;
+   position: absolute;
+  
+  }
+  
+  .mi-img1{
+    text-align: center; 
+    top: 15%;
+    width:59px;
+    height:59px;
+    alt:'ICASST';
+    right: 5%; 
+    position: absolute;
+   }
+  
+  /* Estilo para el texto que se superpone a la imagen TwCenMT* 14 11 12 */
+    /* Estilo para el contenedor de la imagen */
+  .contenedor-imagen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+      position: relative;
+  }
+  .texto-superpuesto {
+    position: absolute;
+    color: #ffffff;
+    left: 20%;
+     bottom: 50%;
+    font-size: 11pt; 
+    font-family:Impact;
+   
+  }
+  .texto-superpuesto1{
+    position: absolute;
+    color: #6cbc46;
+    left: 40%;
+     bottom: 30%;
+    font-size: 15pt; 
+    font-family:Impact;
+    letter-spacing: 5pt;
+  }
+
+ 
+  .texto-superpuesto3 {
+    position:absolute ;
+    color: #ffffff;
+    bottom: 35%; /* Alinea el 50% desde la parte superior */
+    text-align: center;
+    font-size: 11pt; 
+    font-family:Impact;
+   
+  }
+  .texto-superpuesto4 {
+    position: absolute;
+    color: #ffffff;
+    left: 80%;
+    bottom: 5%;
+    text-align: center;
+    font-size: 8pt; 
+    font-family:Impact;
+    
+
+  }
+  /*6cbc46 Estilo para el fondo oscuro superpuesto 'Franklin Gothic Medium'*/
+  .contenedor-imagen::before {
+    
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* Color negro con una transparencia del 50% */
+  }
+  .contenedor-imagen2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    background-color: #f4f4f4;
+    position: relative;
+}
+.contenedor-imagen2::before {
+    
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.7); /* Color negro con una transparencia del 50% */
+}
+  /* Estilo para la imagen */
+  .imagen-oscurecida {
+      display: block;
+      width: 100%;
+      height: 29mm;
+  }
+  .imagen-oscurecida1 {
+    display: block;
+    width: 100%;
+    height: 40mm;
+  }
+
+  .imagen-oscurecida2 {
+    display: block;
+    width: 100%;
+    height: 21.5mm;
+  }
+  /* Estilo para la imagen */
+  .imagen {
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: auto;
+    left: 10%;
+  }
+  
+  .imagen1 {
+    position: absolute;
+    display: block;
+    width:60px;
+    height:10px;
+    left: 6%;
+    bottom: 15%;
+  }
+  
+  .imagen2 {
+    position: absolute;
+    display: block;
+    width:60px;
+    height:8px;
+    left: 79%;
+    bottom: 15%;
+  }
+
+  

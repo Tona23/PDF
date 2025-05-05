@@ -1,0 +1,193 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    color: #000000;
+  
+    font-family: Arial;
+    
+  }
+  
+  .centrar {
+    position: absolute;
+    text-align: center;
+  }
+  
+  .ex1 {
+    margin: 0px 0px 0px 200px;
+  }
+  
+  .mi-texto0{
+    
+    font-size: 12pt; 
+    color: #000000;
+    
+  }
+    
+  .mi-texto1{
+    font-family: Calibri;
+    font-size: 15pt; 
+    color: #539f32;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: .7pt;
+    
+  }
+
+  .mi-texto2{
+
+    font-size: 14pt; 
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 2pt;
+    line-height:1.4 ;
+    position: relative;
+    margin-left: 38mm;
+    margin-right: 40mm;
+    
+  }
+
+  .mi-texto3{
+    
+    font-size: 11pt; 
+    color: #000000;
+    text-align: justify;
+    font-weight: bolder;
+    letter-spacing: 1.5pt;
+    line-height:1.5 ;
+    margin-left: 38mm;
+    margin-right: 40mm;
+  }
+
+
+  .mi-img{
+    text-align: center; 
+    margin-left: 10%;
+    margin-right: 10%; 
+    width:250px;
+    height:28px;
+    position: absolute;
+   top: 20%;
+   }
+  .mi-img0{
+   width:1000px;
+   height:170px;
+   margin-left: 2.5%;
+  }
+  
+  .mi-img1{
+    text-align: center; 
+    left: 2.5%;
+    width:825px;
+    height:110px;
+    position: absolute;;
+   }
+  
+  /* Estilo para el texto que se superpone a la imagen */
+    /* Estilo para el contenedor de la imagen */
+  .contenedor-imagen {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  
+  }
+  .texto-superpuesto {
+    position: absolute;
+    color: #ffffff;
+    left: 20%;
+     bottom: 50%;
+    font-size: 11pt; 
+    font-family:Impact;
+   
+  }
+  .texto-superpuesto1{
+    position: absolute;
+    color: #6cbc46;
+    left: 40%;
+     bottom: 30%;
+    font-size: 15pt; 
+    font-family:Impact;
+    letter-spacing: 5pt;
+  }
+  .texto-superpuesto2 {
+    position: absolute;
+    color: #ffffff;
+     bottom: 45%;
+    font-size: 15pt; 
+    font-family:Impact;
+   
+  }
+  .texto-superpuesto3 {
+    position: absolute;
+    color: #ffffff;
+    bottom: 35%; /* Alinea el 50% desde la parte superior */
+        text-align: center;
+    font-size: 11pt; 
+    font-family:Impact;
+   
+  }
+  .texto-superpuesto4 {
+    position: absolute;
+    color: #ffffff;
+    left: 81%;
+    bottom: 4%;
+    text-align: center;
+    font-size: 10pt; 
+    font-family:Impact;
+    line-height:1.8 ;
+
+  }
+  /*6cbc46 Estilo para el fondo oscuro superpuesto 'Franklin Gothic Medium'*/
+  .contenedor-imagen::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* Color negro con una transparencia del 50% */
+  }
+  
+  /* Estilo para la imagen */
+  .imagen-oscurecida {
+      display: block;
+      width: 100%;
+      height: 30mm;
+  }
+  .imagen-oscurecida1 {
+    display: block;
+    width: 100%;
+    height: 41mm;
+  }
+  /* Estilo para la imagen */
+  .imagen {
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: auto;
+    left: 10%;
+  }
+  
+  .imagen1 {
+    position: absolute;
+    display: block;
+    width:60px;
+    height:10px;
+    left: 6%;
+    bottom: 15%;
+  }
+  
+  .imagen2 {
+    position: absolute;
+    display: block;
+    width:60px;
+    height:8px;
+    left: 79%;
+    bottom: 15%;
+  }
+    /* Estilo para el texto que se superpone a la imagen TwCenMT* 14 11 12 */
